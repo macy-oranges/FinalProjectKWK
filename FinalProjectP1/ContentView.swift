@@ -35,7 +35,7 @@ struct ContentView: View {
                     .font(.system(size: 40, weight:.bold))
                 ProgressBar(width: 300, height: 20, percent: percent, color1: Color(.green), color2: Color(.blue)
                 )
-                //.animation(.spring())
+                .animation(.spring())
                 
                 
             }
